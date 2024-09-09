@@ -12,7 +12,6 @@
     }
   ],
   "require": {
-    "php": ">=8.1",
     "composer-plugin-api": "^2.0.0"
   },
   "require-dev": {
@@ -21,6 +20,12 @@
   "autoload": {
     "psr-4": {
       "Installer\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "Installer\\Plugin",
+    "branch-alias": {
+      "dev-master": "master"
     }
   }
 }
