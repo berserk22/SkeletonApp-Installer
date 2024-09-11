@@ -22,5 +22,8 @@
     "psr-4": {
       "Installer\\": "src/"
     }
-  }
+  },
+  "extra": {
+    "class": "Installer\\Plugin"
+  },
 }
