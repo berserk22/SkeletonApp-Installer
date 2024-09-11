@@ -9,6 +9,7 @@ use Composer\Plugin\PluginInterface;
 class Plugin implements PluginInterface {
 
     public function activate(Composer $composer, IOInterface $io) {
+        echo "Start Installations Plugin\n";
         $composer->getInstallationManager()->addInstaller(new Core($io, $composer));
         $composer->getInstallationManager()->addInstaller(new Modules($io, $composer));
         //$composer->getInstallationManager()->addInstaller(new Template($io, $composer));
