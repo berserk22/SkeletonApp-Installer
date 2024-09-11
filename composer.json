@@ -12,7 +12,6 @@
     }
   ],
   "require": {
-    "php": ">=8.1",
     "composer-plugin-api": "^2.0.0"
   },
   "require-dev": {
@@ -24,6 +23,9 @@
     }
   },
   "extra": {
-    "class": "Installer\\Plugin"
-  },
+    "class": "Installer\\Plugin",
+    "branch-alias": {
+      "dev-dev": "dev"
+    }
+  }
 }
