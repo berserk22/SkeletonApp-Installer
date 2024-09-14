@@ -14,10 +14,12 @@ class Modules extends LibraryInstaller {
     public function getInstallPath(PackageInterface $package): string {
         $name = explode("/", $package->getName());
         $tmp_name = '';
-        $arr = explode("_", $name[1]);
+        $arr = explode("-", $name[1]);
         foreach ($arr as $tmp){
             $tmp_name.=ucfirst($tmp);
         }
+        echo $tmp_name."\n";
+        @mkdir("modules", 0755);
         return "modules/".$tmp_name."/";
     }
 
