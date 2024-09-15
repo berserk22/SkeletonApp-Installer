@@ -11,6 +11,38 @@
       "role": "Developer"
     }
   ],
+  "repositories": [
+    {
+      "name": "skeleton-app/installer",
+      "type": "vcs",
+      "url":  "https://github.com/berserk22/SkeletonApp-Installer.git"
+    },
+    {
+      "name": "skeleton-app/core",
+      "type": "vcs",
+      "url":  "https://github.com/berserk22/Core.git"
+    },
+    {
+      "name": "skeleton-app/database",
+      "type": "vcs",
+      "url":  "https://github.com/berserk22/Database.git"
+    },
+    {
+      "name": "skeleton-app/main",
+      "type": "vcs",
+      "url":  "https://github.com/berserk22/Main.git"
+    },
+    {
+      "name": "skeleton-app/view",
+      "type": "vcs",
+      "url":  "https://github.com/berserk22/View.git"
+    },
+    {
+      "name": "skeleton-app/view-latte",
+      "type": "vcs",
+      "url":  "https://github.com/berserk22/ViewLatte.git"
+    }
+  ],
   "require": {
     "composer-plugin-api": "^2.0.0"
   },
