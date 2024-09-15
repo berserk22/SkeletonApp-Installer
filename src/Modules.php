@@ -18,8 +18,6 @@ class Modules extends LibraryInstaller {
         foreach ($arr as $tmp){
             $tmp_name.=ucfirst($tmp);
         }
-        echo $tmp_name."\n";
-        @mkdir("modules", 0755);
         return "modules/".$tmp_name."/";
     }
 
