@@ -25,7 +25,8 @@
   "extra": {
     "class": "Installer\\Plugin",
     "branch-alias": {
-      "dev-dev": "dev"
+      "dev-main": "dev"
     }
-  }
+  },
+  "minimum-stability": "dev",
 }
