@@ -54,6 +54,14 @@
       "Installer\\": "src/"
     }
   },
+  "autoload": {
+    "psr-4": {
+      "Installer\\": "src/",
+      "Modules\\": "modules/",
+      "Core\\": "core/",
+      "Config\\": "config/"
+    }
+  },
   "extra": {
     "class": "Installer\\Plugin",
     "branch-alias": {
